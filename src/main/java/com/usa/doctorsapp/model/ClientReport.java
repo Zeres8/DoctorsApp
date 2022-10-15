@@ -12,5 +12,4 @@ import lombok.Setter;
 public class ClientReport {
     private Long total ;
     private Client client;
-
 }
