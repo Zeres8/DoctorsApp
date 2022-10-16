@@ -19,7 +19,7 @@ public class Reservation implements Serializable {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer idReservation;
     private Date startDate;
-    private Date devoluctionDate;
+    private Date devolutionDate;
     private String status = "create";
 
     @ManyToOne
