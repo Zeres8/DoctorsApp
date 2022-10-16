@@ -48,8 +48,8 @@ public class ReservationService {
                 if (reservation.getStartDate() != null){
                     optionalReservation.get().setStartDate(reservation.getStartDate());
                 }
-                if (reservation.getDevoluctionDate() != null){
-                    optionalReservation.get().setDevoluctionDate(reservation.getDevoluctionDate());
+                if (reservation.getDevolutionDate() != null){
+                    optionalReservation.get().setDevolutionDate(reservation.getDevolutionDate());
                 }
                 if (reservation.getStatus() != null){
                     optionalReservation.get().setStatus(reservation.getStatus());
